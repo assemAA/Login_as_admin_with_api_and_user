@@ -1,0 +1,6 @@
+[ { "name" : "John Edward" , "age" : 35 ,"salary" : 5000 , "department" : "php"} ,
+    {"name" : "Tonny Blacket" , "age" : 17 ,"salary" : 2000 , "department" : "asp"} ,
+    {"name" : "Havvy Sims" , "age" : 22 ,"salary" : 7000 , "department" : "express"} ,
+    {"name" : "Barry Sterlling" , "age" : 41 ,"salary" : 20000 , "department" : "djanjo"} ,
+    { "name" : "lary Bee" , "age" : 30 ,"salary" : 15000 , "department" : "spring"} 
+    ]
