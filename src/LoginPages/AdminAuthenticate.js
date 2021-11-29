@@ -13,14 +13,13 @@ class AuthenticateLoginAdmin extends React.Component {
                 'token' : this.props.token ,
                 'email' : this.props.email ,
             }}> 
-            <BrowserRouter>
             <Route  path='/home' exact component={AdminHome} />
             </BrowserRouter>
             </AuthenticateContext.Provider>
             : <BrowserRouter>
              <Redirect from="/home" to="/" />
             <LoginForm />
-            </BrowserRouter>
+           
              }
             </div>
     }
