@@ -74,19 +74,16 @@ class AdminHome  extends React.Component {
                 ))}  
            
            </table>
-           </> : <> <BrowserRouter>
+           </> : <> 
              <Redirect from='/home/' to="/" />
              <LoginForm />
-            </BrowserRouter>
             </>
 
         }
             </AuthenticateContext.Consumer>
             </div> :
-            <BrowserRouter>
             <Redirect from = "/home" to = "/" />
             {this.state.showComponent} 
-            </BrowserRouter>
         )
     }
 }
